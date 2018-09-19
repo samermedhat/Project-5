@@ -1,0 +1,1169 @@
+<html>
+<head>
+<meta charset="utf-8">  
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">  
+<title>Our Team</title>    
+<style>
+
+
+   body
+    {
+        overflow-x: hidden
+    }
+   
+.header
+{
+width: 100%;
+height: 100%;
+background-image: url(bg4.jpeg);
+background-size: cover;
+font-family: 'Skranji', cursive;
+}
+.header .over-lay
+{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,.8);
+position: absolute;
+top: 0px;
+color: white;
+text-align: center;
+}
+.header i
+{
+color: white;
+font-size: 75px;
+cursor: pointer;
+position: absolute;
+top: 750px;
+left: 600px;
+transition: 1s all
+}
+.active6
+{
+top: 780px !important  
+}    
+.welcome
+{
+font-size: 70px;
+font-weight: bold;
+float: left;
+font-family: 'Skranji', cursive;
+color: red;
+position: absolute;
+top: 149px;
+left: 216px;
+color: white;
+transition: 1s all;
+opacity: 0;
+text-shadow: 0px 11px 5px mediumvioletred;
+}
+
+.welcome:nth-of-type(2)
+{
+left: 282px;
+}
+.welcome:nth-of-type(3)
+{
+left: 321px;
+}  
+.welcome:nth-of-type(4)
+{
+left: 355px;
+}  
+.welcome:nth-of-type(5)
+{
+left: 395px;
+}  
+.welcome:nth-of-type(6)
+{
+left: 451px;
+}  
+.welcome:nth-of-type(7)
+{
+left: 515px;
+} 
+.welcome:nth-of-type(8)
+{
+left: 577px;
+}
+.welcome:nth-of-type(9)
+{
+left: 598px;
+}  
+.welcome:nth-of-type(10)
+{
+left: 670px;
+}  
+.welcome:nth-of-type(11)
+{
+left: 733px;
+}  
+.welcome:nth-of-type(12)
+{
+left: 793px;
+}  
+.welcome:nth-of-type(13)
+{
+left: 859px;
+}   
+.welcome:nth-of-type(14)
+{
+left: 898px;
+}  
+.welcome:nth-of-type(15)
+{
+left: 942px;
+}  
+.welcome:nth-of-type(16)
+{
+left: 968px;
+}  
+.welcome:nth-of-type(17)
+{
+left: 990px;
+}  
+.welcome:nth-of-type(18)
+{
+left: 1025px;
+}   
+.active3
+{
+opacity: 1 !important
+}
+.hello
+{
+font-size: 35px;
+font-weight: bold;
+float: left;
+font-family: 'Skranji', cursive;
+position: absolute;
+color: mediumvioletred;
+left: 409px;
+top: 258px;
+opacity: 0;
+transition: 1s all;
+text-shadow: 5px 3px 5px white;
+}   
+.hello:nth-of-type(2) 
+{
+left: 431px
+}  
+.hello:nth-of-type(3) 
+{
+left: 451px  
+}   
+.hello:nth-of-type(4) 
+{
+left: 468px 
+}
+.hello:nth-of-type(5) 
+{
+left: 485px  
+}  
+.hello:nth-of-type(6) 
+{
+left: 524px 
+}
+.hello:nth-of-type(7) 
+{
+left: 546px  
+}   
+.hello:nth-of-type(8) 
+{
+left: 570px  
+} 
+.hello:nth-of-type(9) 
+{
+left: 613px
+}
+.hello:nth-of-type(10) 
+{
+left: 626px 
+}   
+.hello:nth-of-type(11) 
+{
+left: 650px  
+}  
+.hello:nth-of-type(12) 
+{
+left: 682px 
+}    
+.hello:nth-of-type(13) 
+{
+left: 702px 
+}  
+.hello:nth-of-type(14) 
+{
+left: 734px    
+}   
+.hello:nth-of-type(15) 
+{
+left: 766px    
+}   
+.hello:nth-of-type(16) 
+{
+left: 786px     
+}  
+.hello:nth-of-type(17) 
+{
+left: 807px   
+}    
+.hello:nth-of-type(18) 
+{
+left: 830px    
+}   
+.hello:nth-of-type(19) 
+{
+left: 854px 
+} 
+.hello:nth-of-type(20) 
+{
+left: 477px;
+top: 311px;     
+}     
+.hello:nth-of-type(21) 
+{
+left: 499px;
+top: 311px;  
+}  
+.hello:nth-of-type(22) 
+{
+top: 311px;
+left: 523px; 
+}    
+.hello:nth-of-type(23) 
+{
+left: 566px;
+top: 311px;
+}   
+.hello:nth-of-type(24) 
+{
+left: 599px;
+top: 311px; 
+}   
+.hello:nth-of-type(25) 
+{
+left: 619px ; 
+top: 311px;   
+}  
+.hello:nth-of-type(26) 
+{
+left: 652px;
+top: 311px;  
+}   
+.hello:nth-of-type(27) 
+{
+left: 674px;
+top: 311px;  
+}     
+.hello:nth-of-type(28) 
+{
+left: 693px ;
+top: 311px;  
+}  
+.hello:nth-of-type(29) 
+{
+left: 707px;
+top: 311px;  
+}    
+.hello:nth-of-type(30) 
+{
+left: 717px ;
+top: 311px;  
+}   
+.hello:nth-of-type(31) 
+{
+left: 739px;
+top: 311px;  
+}   
+.hello:nth-of-type(32) 
+{
+left: 763px ;
+top: 311px;  
+}     
+.hello:nth-of-type(33) 
+{
+left: 782px ;
+top: 311px;  
+}  
+.active4
+{
+opacity: 1 !important
+}
+
+
+
+.services
+{
+width: 100%;
+height: 100%;
+background-image: url(bg3.jpeg);
+background-size: cover
+}
+.services .over-lay
+{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 896px;
+text-align: center;
+padding-top: 150px;
+font-family: 'Skranji', cursive;
+background-color: rgba(0,0,0,.8)
+}
+.services .over-lay h1
+{
+margin: 0px;
+color: white;
+font-size: 65px;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.services .over-lay i
+{
+font-size: 35px;
+color: gold
+}
+.services .over-lay span
+{
+background-color: white;
+width: 70px;
+height: 5px;
+display: inline-block
+}  
+.services .over-lay div
+{
+width: 280px;
+background-color: #fff;
+height: 302px;
+float: left;
+padding-top: 25px;
+position: absolute;
+left: 35px;
+z-index: 999999999999999;
+top: 330px;
+border-top-left-radius: 125px;
+border-top-right-radius: 125px;
+border: 3px mediumvioletred solid;
+transition: 1s all
+}
+.services .over-lay div:nth-of-type(2)
+{
+left: 343px;
+transform: scale(1.1,1.1)    
+}
+.services .over-lay div:nth-of-type(3)
+{
+left: 652px
+}
+.services .over-lay div:nth-of-type(4)
+{
+left: 945px
+}
+.services .over-lay div i
+{
+font-size: 70px;
+margin-bottom: -15px;
+color: mediumvioletred 
+}
+.services .over-lay div h3
+{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 20px;
+color: rgb(9, 132, 227); 
+}
+.services .over-lay div p
+{
+font-size: 16px;
+line-height: 23px;
+color: mediumvioletred;
+}
+.shape
+{
+width: 100%;
+height: 500px;
+background-color: mediumvioletred;
+position: absolute;
+z-index: 999999999;
+top: 1130px;
+-webkit-clip-path: polygon(0 27%, 100% 0, 100% 69%, 0 94%);
+clip-path: polygon(0 27%, 100% 0, 100% 69%, 0 94%);
+}
+.shape2
+{
+width: 100%;
+height: 500px;
+background-color: #0984e3;
+position: absolute;
+z-index: 999999999;
+-webkit-clip-path: polygon(0 0, 100% 38%, 100% 100%, 0 66%);
+clip-path: polygon(0 0, 100% 38%, 100% 100%, 0 66%);
+top: 1130px;
+}  
+    
+
+
+.portfolio 
+{
+width: 100%;
+height: 100%;
+background-image: url(bg2.jpeg);
+background-size: cover;
+font-family: 'Skranji', cursive;
+}
+.portfolio .over-lay
+{
+background-color:rgba(0,0,0,.8);
+width: 100%;
+height: 100%;
+text-align: center;
+padding-top: 70px;
+position: absolute;
+top: 1792px
+}
+.portfolio .over-lay h1
+{
+margin: 0px;
+color: #fff;
+font-size: 65px;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.portfolio .over-lay i
+{
+font-size: 35px;
+color: gold
+}
+.portfolio .over-lay span
+{
+background-color: #fff;
+width: 70px;
+height: 5px;
+display: inline-block
+}  
+.portfolio .over-lay .buttons
+{
+padding-left: 15px
+}
+.portfolio .over-lay button
+{
+height: 50px;
+font-size: 20px;
+background-color: transparent;
+color: mediumvioletred;
+border: 2px solid mediumvioletred;
+width: 195px;
+margin-right: 1%;
+margin-top: 2%;
+margin-bottom: 3%;
+transition: 1s all;
+}
+.portfolio .over-lay button:hover
+{
+background-color: mediumvioletred;
+color: white
+}   
+.active
+{
+background-color: mediumvioletred !important;
+color: white !important
+}
+.portfolio .over-lay img
+{
+transition: 1s all;
+transform: scale(1,1);
+position: absolute;
+cursor: pointer
+}
+.portfolio .over-lay img:hover
+{
+opacity: .7
+}
+.portfolio .over-lay img:nth-of-type(1)
+{
+left: 20px
+}
+.portfolio .over-lay img:nth-of-type(2)
+{
+left: 430px
+}
+.portfolio .over-lay img:nth-of-type(3)
+{
+left: 839px
+}
+.portfolio .over-lay img:nth-of-type(4)
+{
+left: 20px;
+top: 560px
+}   
+.portfolio .over-lay img:nth-of-type(5)
+{
+left: 430px;
+top: 560px
+}
+.portfolio .over-lay img:nth-of-type(6)
+{
+left: 839px;
+top: 560px
+}  
+.info
+{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,.8);
+position: fixed;
+top: 0px;
+padding-top: 230px;
+text-align: center;
+display: none
+}
+.images
+{
+width: 700px;
+height: 420px;
+margin: auto;
+margin-bottom: 30px
+}
+.info img
+{
+width: 700px;
+height: 420px;
+position: absolute;
+left: 290px;
+transform: scale(0,0);
+transition: 1s all
+}
+.info button
+{
+width: 60px;
+height: 50px;
+font-size: 40px;
+background-color: transparent;
+color: white;
+border: 0px;
+transition: 1s all
+}
+.info .fa-window-close
+{
+position: absolute;
+font-size: 55px;
+color: white;
+cursor: pointer;
+top: 50px;
+right: 90px;
+}
+.active2
+{
+transform: scale(1,1) !important;
+}
+.disable
+{
+color: darkgray !important
+}
+
+    
+  
+.skills
+{
+width: 100%;
+height: 100%;
+background-image: url(bg5.jpg);
+background-size: cover;
+}
+.skills .over-lay
+{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 2688px;
+background-color: rgba(0,0,0,.8);
+text-align: center;
+font-family: 'Skranji', cursive;
+padding-top: 150px
+}
+.skills .over-lay h1
+{
+margin: 0px;
+color: white;
+font-size: 80px;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.skills .over-lay i
+{
+font-size: 35px;
+color: gold
+}
+.skills .over-lay span
+{
+background-color: white;
+width: 70px;
+height: 5px;
+display: inline-block
+}
+.skills .over-lay div
+{
+width: 300px;
+height: 295px;
+background-color: transparent;
+padding-top: 15px;
+float: left;
+margin-right: 10px;
+margin-top: 70px;
+border: 3px white solid;
+border-radius: 5px;
+cursor: pointer;
+transition: 2s all 
+}
+.skills .over-lay div::before
+{
+content: "";
+width: 30px;
+height: 30px;
+background-color: mediumvioletred;
+position: absolute;
+transform: rotate(45deg);
+top: 330px;
+border: 2px white solid
+}
+.skills .over-lay div::after
+{
+content: "";
+width: 30px;
+height: 30px;
+background-color: mediumvioletred;
+position: absolute;
+transform: rotate(45deg);
+top: 622px;
+border: 2px white solid
+}  
+.skills .over-lay div h3
+{
+font-size: 50px;
+color: #fff;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.skills .over-lay div span
+{
+background-color: white;
+}
+.skills .over-lay div section
+{
+width: 270px;
+height: 40px;
+background-color: mediumvioletred; 
+margin: 20px auto;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px
+}   
+.skills .over-lay div section span
+{
+width: 0px;
+height: 20px;
+background-color: #0984e3;
+border-radius: 10px
+}
+.skills .over-lay div h4
+{
+font-size: 30px;
+color: white
+}
+.skills .over-lay div h4::after
+{
+content: " %";
+font-size: 30px
+}
+
+    
+
+.testimonials
+{
+width: 100%;
+height: 100%;
+background-image: url(bg6.jpg);
+background-size: cover;
+}
+.testimonials .over-lay
+{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 3584px;
+background-color: rgba(0,0,0,.8);
+text-align: center;
+padding-top: 130px;
+font-family: 'Skranji', cursive;
+}
+.testimonials .over-lay h1
+{
+margin: 0px;
+color: white;
+font-size: 65px;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.testimonials .over-lay i
+{
+font-size: 35px;
+color: gold
+}
+.testimonials .over-lay span
+{
+background-color: white;
+width: 70px;
+height: 5px;
+display: inline-block
+}    
+.testimonials .over-lay div
+{
+width: 1000px;
+height: 400px;
+background-color: mediumvioletred;
+position: absolute;
+top: 300px;
+left: 132px;
+opacity: 0;
+overflow: hidden;
+border-radius: 10px;
+transition: 1s all
+}
+.testimonials .over-lay .client2
+{
+background-color: #0984e3
+}
+.testimonials .over-lay .client3
+{
+background-color: rebeccapurple
+}
+.testimonials .over-lay div img
+{
+width: 500px;
+height: 350px;
+-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+position: absolute;
+left: -499px;
+top: 25px;
+border-radius: 10px;
+}
+.testimonials .over-lay div h3
+{
+color: white;
+font-size: 40px;
+position: absolute;
+left: 680px;
+top: -55px;
+}
+.testimonials .over-lay div p
+{
+color: white;
+font-size: 18px;
+line-height: 29px;
+position: absolute;
+left: 550px;
+top: 394px;
+}
+.active10
+{
+opacity: 1 !important
+}
+.testimonials .controls
+{
+margin-top: 500px
+}
+.testimonials .controls span
+{
+width: 25px;
+height: 25px;
+border-radius: 50%;
+border: 3px white solid;
+display: inline-block;
+margin-right: 10px;
+background-color: transparent;
+transition: 1s all;
+cursor: pointer
+}
+.testimonials .controls span:hover
+{
+background-color: #fff !important;    
+}
+.active_c
+{
+background-color: #fff !important;
+}
+    
+
+    
+    
+.team
+{
+width: 100%;
+height: 100%;
+background-image: url(bg7.jpeg);
+background-size: cover;
+    overflow: hidden
+}
+.team .over-lay
+{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 4480px;
+text-align: center;
+padding-top: 120px;
+font-family: 'Skranji', cursive;
+background-color: rgba(0,0,0,.7)
+}
+.team .over-lay h1
+{
+margin: 0px;
+color: white;
+font-size: 65px;
+text-shadow: 0px 8px 10px mediumvioletred;
+}
+.team .over-lay i
+{
+font-size: 35px;
+color: gold
+}
+.team .over-lay span
+{
+background-color: white;
+width: 70px;
+height: 5px;
+display: inline-block
+}      
+.team .over-lay div
+{
+width: 600px;
+height: 232px;
+background-color: white;
+padding-top: 15px;
+padding-left: 15px;
+border-radius: 10px;
+position: absolute;
+opacity: .8;
+transition: 1s all;
+}
+.team .over-lay div img
+{
+width: 300px;
+height: 200px;
+margin-bottom: 5px;
+float: left;
+border-radius: 10px
+}
+.team .over-lay div h3
+{
+font-size: 32px;
+margin-top: 38px;
+}
+.team .over-lay div h4
+{
+font-size: 20px
+} 
+.team .over-lay div .social
+{
+list-style: none
+}
+.team .over-lay div .social li
+{
+font-size: 30px;
+margin-top: 10px;
+float: left;
+margin-right: 10px;
+cursor: pointer
+}
+.team .over-lay div .social li i
+{
+color: mediumvioletred;  
+transition: 1s all
+}
+.team .over-lay div .social li i:hover
+{
+transform: rotate(360deg)
+} 
+.team .over-lay .per1
+{
+top: 280px;
+left: 20px;    
+}   
+.team .over-lay .per2
+{
+top: 535px;
+left: 20px
+}   
+.team .over-lay .per3
+{
+top: 415px;
+left: 640px;
+}
+.active12
+{
+opacity: 1 !important;
+transform: scale(1.1,1.1);
+}
+   
+   
+    
+    
+</style>        
+</head>
+<body id='body'>
+
+    
+    
+    
+<div class="header">
+<div class="over-lay">
+<i class="fa fa-angle-double-down active6"></i>       
+</div>      
+</div>    
+    
+<div class="services">       
+<div class="over-lay">
+   
+<h1>Our Services</h1>    
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span><br> 
+    
+<div class="ser1" >
+<i class="fa fa-check-square-o"></i>      
+<h3>Service 1</h3>     
+<p>It is a long established fact<br> that a reader will be distracted<br> by the readable<br>
+content of a page when looking at<br> its layout.</p>      
+</div>    
+    
+<div class="ser2">
+<i class="fa fa-check-square-o"></i>      
+<h3>Service 2</h3>     
+<p>It is a long established fact<br> that a reader will be distracted<br> by the readable<br>
+content of a page when looking at<br> its layout.</p>      
+</div>     
+   
+<div class="ser3">
+<i class="fa fa-check-square-o"></i>      
+<h3>Service 3</h3>     
+<p>It is a long established fact<br> that a reader will be distracted<br> by the readable<br>
+content of a page when looking at<br> its layout.</p>      
+</div>     
+    
+<div class="ser4">
+<i class="fa fa-check-square-o"></i>      
+<h3>Service 4</h3>     
+<p>It is a long established fact<br> that a reader will be distracted<br> by the readable<br>
+content of a page when looking at<br> its layout.</p>      
+</div> 
+        
+</div>        
+</div>     
+<div class="shape"></div>     
+<div class="shape2"></div>    
+  
+<div class="portfolio">
+<div class="over-lay">
+    
+<h1>Our Gellary</h1>
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span> 
+
+<div class="buttons">   
+<button class="all active">All</button>    
+<button class="cars">Cars</button>    
+<button class="cams">Cameras</button>   
+</div>    
+   
+<img class="col-lg-4 car" src="p1.jpeg" id="im1" height="250">    
+<img class="col-lg-4 cam" src="p4.jpeg" id="im2" height="250">    
+<img class="col-lg-4 car" src="p3.jpeg" id="im3" height="250">    
+<img class="col-lg-4 car" src="p2.jpeg" id="im4" height="250">    
+<img class="col-lg-4 cam" src="p5.jpeg" id="im5" height="250">    
+<img class="col-lg-4 cam" src="p6.jpeg" id="im6" height="250">    
+    
+</div>    
+</div>    
+<div class="info">
+ 
+<i class="fa fa-window-close"></i>    
+    
+<div class="images" id="i">
+<img src="p1.jpeg" class="img" id="img">    
+<img src="p4.jpeg" class="img2" id="img2">    
+<img src="p3.jpeg" class="img3" id="img3">    
+<img src="p2.jpeg" class="img4" id="img4">    
+<img src="p5.jpeg" class="img5" id="img5">    
+<img src="p6.jpeg" class="img6" id="img6">    
+</div>    
+   
+   
+<button class="back disable" disabled id='back'><i class="fa fa-chevron-left"></i></button>    
+<button class="next" id="next"><i class="fa fa-chevron-right"></i></button>     
+    
+</div>    
+
+<div class="skills">
+<div class="over-lay">
+  
+<h1>My Skills</h1>    
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span><br>     
+    
+<div class="skill1" style="margin-left:13px">
+<h3>HTML</h3> 
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span>    
+<section class="percent"><span class="perc"></span></section>  
+<h4 id="html">0</h4>    
+</div>   
+    
+<div class="skill2">
+<h3>CSS</h3> 
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span>    
+<section class="percent"><span class="perc"></span></section>  
+<h4 id="css">0</h4>    
+</div>    
+    
+<div class="skill3">
+<h3>JavaScript</h3> 
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span>    
+<section class="percent"><span class="perc"></span></section>  
+<h4 id="js">0</h4>    
+</div>    
+    
+<div class="skill4">
+<h3>JQuery</h3> 
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span>    
+<section class="percent"><span class="perc"></span></section>  
+<h4 id="jq">0</h4>    
+</div>     
+    
+</div>        
+</div>    
+  
+<div class="testimonials">
+<div class="over-lay">
+    
+<h1>What Our Clients Say !?</h1>
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span><br>     
+    
+<div class="client1 active10">
+<img src="client1.jpeg"> 
+<h3>Client 1</h3>    
+<p class="lead">" Lorem Ipsum is simply nd typesetting industry.<br>
+    Lorem Ipsum has been the industry's standard dummy<br>
+    text evergalley of type<br>
+    and scramb make a type specimen book.<br>
+    It has survipe and scrambled it to<br>
+    make a type specimen book. It has<br>
+    survived notnturies, but also<br>
+    the leap into electronic<br>
+    typeged. "
+</p>       
+</div>    
+    
+<div class="client2">
+<img src="client2.jpeg"> 
+<h3>Client 2</h3>    
+<p class="lead">" Lorem Ipsum is simply nd typesetting industry.<br>
+    Lorem Ipsum haindustry's standard dummy<br>
+    text evergalley of type<br>
+    It has survived not only<br> five cent and scrambled it to<br>
+    make a type specimen book. It has<br>
+    survived not onlive centuries, but also<br>
+    the leap into electronic<br>
+    typesettnged. "
+</p>       
+</div>    
+    
+<div class="client3">
+<img src="client3.jpeg"> 
+<h3>Client 3</h3>    
+<p class="lead">" Lorem Ipsum is simply nd typesetting industry.<br>
+    Lorem Ipsum has been the industry's standard dummy<br>
+    and scrambled it to make a type specimen book.<br>
+    It has survived not only<br> five centuries of type and scrambled it to<br>
+    make a typbook. It has<br>
+    survived not only five centuries, but also<br>
+    the leap into electronic<br>
+    typesettinlly unchanged. "
+</p>       
+</div>    
+  
+<section class="controls">
+<span class="con1 active_c"></span>    
+<span class="con2"></span>    
+<span class="con3"></span>    
+</section>  
+    
+</div>        
+</div>    
+    
+
+    
+    
+<div class="team">
+<div class="over-lay">
+    
+<h1>Our Team</h1>    
+<span class="on"></span> 
+<i class="fa fa-star"></i>    
+<span class="tw"></span><br>  
+    
+<div class="per1">
+<img src="person3.jpeg">    
+<h3>PERSONE 2</h3>    
+<h4>HIS JOB</h4>
+<ul class="social">
+<li style="margin-left: 90px;"><i class="fa fa-facebook-square"></i></li>    
+<li><i class="fa fa-google-plus-square"></i></li>    
+<li><i class="fa fa-twitter-square"></i></li>    
+</ul>    
+</div>   
+    
+<div class="per2">
+<img src="person2.jpeg">    
+<h3>PERSONE 3</h3>    
+<h4>HIS JOB</h4>
+<ul class="social">
+<li style="margin-left: 90px;"><i class="fa fa-facebook-square"></i></li>    
+<li><i class="fa fa-google-plus-square"></i></li>    
+<li><i class="fa fa-twitter-square"></i></li>    
+</ul>    
+</div>     
+  
+<div class="per3 active11 active12">
+<img src="person1.jpeg">    
+<h3>PERSONE 1</h3>    
+<h4>HIS JOB</h4>
+<ul class="social">
+<li style="margin-left: 90px;"><i class="fa fa-facebook-square"></i></li>    
+<li><i class="fa fa-google-plus-square"></i></li>    
+<li><i class="fa fa-twitter-square"></i></li>    
+</ul>    
+</div>     
+ 
+    
+</div>    
+</div>    
+    
+    
+    
+    
+<script src="js/jquery-3.2.0.min.js"></script>  
+<script src="slider.js"></script>    
+<script src="js/bootstrap.min.js"></script>     
+</body>
+</html>
